@@ -1,0 +1,16 @@
+<ion-app>
+  <ion-content class="ion-padding">
+    <form>
+      <ion-item>
+        <ion-label position="floating" required="true">Email</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating" required="true">Senha</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item> 
+      <ion-button (click)="logar()" expand="block" fill="outline">Entrar</ion-button>
+      <ion-button (click)="cadastro()" expand="block">Cadastrar</ion-button>
+    </form>
+  </ion-content>
+</ion-app>
