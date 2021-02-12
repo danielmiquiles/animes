@@ -1,0 +1,7 @@
+{
+  "name": "animes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
